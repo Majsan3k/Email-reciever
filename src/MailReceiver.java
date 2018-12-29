@@ -1,5 +1,3 @@
-//Då JDK-extensionen Javamail används så skickar jag även med en körbar jar-fil. Hoppas det var OK!
-
 import javax.mail.*;
 import javax.swing.*;
 import java.awt.*;
