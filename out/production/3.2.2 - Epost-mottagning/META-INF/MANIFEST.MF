@@ -1,0 +1,1010 @@
+Manifest-Version: 1.0
+SCCS-ID: @(#)javamail.mf 1.4 00/09/26
+Extension-Name: javax.mail
+Specification-Title: JavaMail(TM) API Design Specification
+Specification-Version: 1.2
+Specification-Vendor: Sun Microsystems, Inc.
+Implementation-Version: 1.2
+Implementation-Vendor: Sun Microsystems, Inc.
+Implementation-Vendor-Id: com.sun
+
+Name: META-INF/javamail.default.providers
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 0/XkyII703L8sh8KjodiRPIdSVA=
+MD5-Digest: hHEgWSxi02sSk5uns8/haw==
+
+Name: META-INF/javamail.default.address.map
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ODAfS34uRuTBdYzYKPBp+1eqEZk=
+MD5-Digest: ++MWwAqT6C0WoE+jDvLhCA==
+
+Name: META-INF/javamail.charset.map
+Digest-Algorithms: SHA MD5 
+SHA-Digest: a297rNaphdN9awGOyc2R5mGUtVc=
+MD5-Digest: HvDsbuHDIdUAIFyAZQKY3A==
+
+Name: META-INF/mailcap
+Digest-Algorithms: SHA MD5 
+SHA-Digest: CLWFZsHqGjAyruExp9l2SE1W470=
+MD5-Digest: /occG/CgZOmW7/OMyIeVaw==
+
+Name: javax/mail/Address.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: AjR7RqnN//cdYGouxbd06mSVfI4=
+MD5-Digest: ZnTIQ2aQAtSNIOWXI1pQpw==
+
+Name: javax/mail/AuthenticationFailedException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: YF38PrbkcI7HYJYIttTVoJV2vE4=
+MD5-Digest: 8Iqc9Vl2ydMjyFKjTXyS4Q==
+
+Name: javax/mail/Authenticator.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 7pQcZt78EQHeDlSkDZzjoGLUscg=
+MD5-Digest: GFAHvceOxejRDpNFl8dTSA==
+
+Name: javax/mail/BodyPart.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Z7HxV6zlgSjnoF0gZFK1/rg/oYg=
+MD5-Digest: ldDtHVGoHKVflzQAxmNhCg==
+
+Name: javax/mail/FetchProfile.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: PGpnHrE17bny56GbZM2pNgxjL6E=
+MD5-Digest: Nz33KAF/oZE4DXT26X4nFQ==
+
+Name: javax/mail/FetchProfile$Item.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 2KIC/t+DxYO9frsMltQPlKsFtOI=
+MD5-Digest: dzzNSgkHEle+kbbZ+L+JHA==
+
+Name: javax/mail/Flags.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: cFkFTnS/uRD8uQaEE2S1YhbICig=
+MD5-Digest: oK2yXR3PGSfixH8ZJt5L7g==
+
+Name: javax/mail/Flags$Flag.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Fk/EDANP5be/xdYYc8NcW2aNljI=
+MD5-Digest: zw2CZgqIGk9f+p+GJe40Qw==
+
+Name: javax/mail/Folder.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: KHtU/mLUYR2CuNJpFuMD7fsCxh4=
+MD5-Digest: jSb3CLSDk1ElY6QDNfJKlg==
+
+Name: javax/mail/Folder$1.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Dvizbo9aRUW+GQuiuF7o76fV74E=
+MD5-Digest: VYo4ezl+v+t4kVSYzQZCHQ==
+
+Name: javax/mail/FolderClosedException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: e0bN83KGP/c8FKy+RU7UzwZhG2Y=
+MD5-Digest: S66Fif+dWjz8dTC4mpuXpQ==
+
+Name: javax/mail/FolderNotFoundException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: O0TsgREt68xLBQav6Qm383mdgwY=
+MD5-Digest: IeST64ZvLCHKhAEmm56N3g==
+
+Name: javax/mail/UIDFolder.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: qDcdba2rD5hvk4Quzsc3l/5nCYc=
+MD5-Digest: f/ZEC8C6tfIHO/GukXcBAA==
+
+Name: javax/mail/UIDFolder$FetchProfileItem.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: mc7hlMEC7Ik0finJJfh67fNw3P4=
+MD5-Digest: ukjK/0g0D3InWrZdyPjpkQ==
+
+Name: javax/mail/Header.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: IFMk6FsRtrIqQctMJikigWLUbmg=
+MD5-Digest: R0oAtfAdypOCErv3dkz6vQ==
+
+Name: javax/mail/IllegalWriteException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: MkCNSyU6eqmTxTcHcHwkDslOJJQ=
+MD5-Digest: bGUilxcMYqXte9kMlaXB1w==
+
+Name: javax/mail/Message.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: nMHNlMTV6R4lFkQE7YwFvvQmQcQ=
+MD5-Digest: V6OtqadbXhimSQeh30U8DA==
+
+Name: javax/mail/Message$RecipientType.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: RjBHHA+r8BOf0LE0DTgVvd/UbtU=
+MD5-Digest: YtVJRaCSxhzoj0Lkb9xXng==
+
+Name: javax/mail/MessageAware.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: jp3hq8pfG9lfLtSB0cL2M85ccSQ=
+MD5-Digest: a5Ki6yFuupo0RwrHCUJpuw==
+
+Name: javax/mail/MessageContext.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: lEs1Ndn1W9QvMEMZkSmfF6SwQtM=
+MD5-Digest: MLq3JWY2rJl//MCW5CWBkw==
+
+Name: javax/mail/MessagingException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: w2lgET0TdZBXTBGL/Ajk/7ZrqW4=
+MD5-Digest: CC+ZhuymqN4Og9K9c15tww==
+
+Name: javax/mail/MethodNotSupportedException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 9sfHv6gBu3UsjdNonZgn5JuhsxY=
+MD5-Digest: OHZcQ3BunPb7E6kAxLxlmg==
+
+Name: javax/mail/NoSuchProviderException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: B0Qw/voB4O+jjxeZLxhAHf/5Ka8=
+MD5-Digest: rlyc9uZIwyQpzsJeMdJJkw==
+
+Name: javax/mail/Multipart.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: W8iWSPMzC7NAUZJR8cqx4Lc7VUs=
+MD5-Digest: 7HoWMTBeDWqKeqmMXo0YYQ==
+
+Name: javax/mail/MultipartDataSource.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: q5t9m5Z6jIVYd+Ndb52UMWIX9Sw=
+MD5-Digest: 9eak1+4EOTVTSJHKqa1JQg==
+
+Name: javax/mail/Part.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 9G9aj3EQEFJkLkGaVyAjesSW1Jk=
+MD5-Digest: 6VN6kAryw+zuO3MleHwxTA==
+
+Name: javax/mail/PasswordAuthentication.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Wv5wyuAKuw5dSkzgCNApka5EAH4=
+MD5-Digest: THKVpBASYa+Labc1kUaofQ==
+
+Name: javax/mail/ReadOnlyFolderException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Zk9WP2Jn8FjjuVsfxD68FgiUNdM=
+MD5-Digest: BGzQhy/8hTlRXHSUsNjoew==
+
+Name: javax/mail/SendFailedException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: rpOJVGObSi7242/QE2zOPHSQbb0=
+MD5-Digest: bfWTOiNmk5qTp3KcGoqM1w==
+
+Name: javax/mail/Service.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: F/hKqhKli42W4cfFXsXps2O0Rv8=
+MD5-Digest: acP199mEj06RRVuL+jMYuQ==
+
+Name: javax/mail/Service$1.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: dmIeSQs4eSooeiAndCTecQbcvYQ=
+MD5-Digest: hqav9GAhp4fGTDQBR5rG3Q==
+
+Name: javax/mail/Session.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 5GypYRl1mw2QqdeoqNY7PsmxIrM=
+MD5-Digest: ysBzxvGNk5nfumgXvSW5MQ==
+
+Name: javax/mail/Store.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: mprZggn8MosZdEtkncG/FrgTJzw=
+MD5-Digest: dS9EYvyNsIyFMlSgczA9zg==
+
+Name: javax/mail/StoreClosedException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: fNakoUrZjbIS3sDTdd6NbwZSxwU=
+MD5-Digest: H5B8gqQh3hO6QLv3AFxMnA==
+
+Name: javax/mail/Transport.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: uwpEC7aMEf7LjcdXhSYE+l99HlQ=
+MD5-Digest: mM2pb3IrEm1zty2c30Jm9g==
+
+Name: javax/mail/URLName.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 2J/LffMlxXsNs1Pyny3SNpc9wf8=
+MD5-Digest: F9ZufEWb98q0OWrcGtcjRw==
+
+Name: javax/mail/Provider.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: q0dTXUtD+NKkBnQ1X+af+Re2CP4=
+MD5-Digest: TfJljSiOifDuG8qqDzhSXg==
+
+Name: javax/mail/Provider$Type.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: SV6jAmUMr25jB0Q49aJY6zrvflU=
+MD5-Digest: oZEk3EvkkIhnb4StPZd3fg==
+
+Name: javax/mail/EventQueue.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Rw/WNB+s6X52Qk5l2D/VSHvMFq8=
+MD5-Digest: 61JuZBFhHhLAlO7XaZZh+g==
+
+Name: javax/mail/EventQueue$QueueElement.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: u9jzql9AY+qQyCOjLR81+DL7aus=
+MD5-Digest: zdR4z7me8N3y4njzncUXPg==
+
+Name: javax/mail/event/ConnectionAdapter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: RAMlLeKePXTMNi2n6y2+xOaoUHs=
+MD5-Digest: 0KGMvqvmmwDXeGlYIA+RhA==
+
+Name: javax/mail/event/ConnectionEvent.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 0TBxq1F/h/yqkjVI7rMGeju/GfU=
+MD5-Digest: GGBDL5oTPvMOXBWcsoZDkw==
+
+Name: javax/mail/event/ConnectionListener.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 4a5cGqI0/mOkMii7FKm6AFct87k=
+MD5-Digest: WqE1SIZsPwPppZrV+v6rng==
+
+Name: javax/mail/event/FolderAdapter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: udL4UQadyfnmGbC73sb1fn41xyY=
+MD5-Digest: BN6q8UsmhE38x7PFl1ZrCQ==
+
+Name: javax/mail/event/FolderEvent.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: RaPAjBJEAdKRiV96gp0C/BLUvxw=
+MD5-Digest: pUaeT8ou07v7aSpOhu7CPA==
+
+Name: javax/mail/event/FolderListener.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: jqyODyE3T/VwXhIxZxtt2HKNfRE=
+MD5-Digest: zoC/knivf0vigBUa03PhBQ==
+
+Name: javax/mail/event/MailEvent.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 7DJUv/M3bH5Gugc5uUu5BQi1VyQ=
+MD5-Digest: S9Kg9/vxw+l54tTN1+v7Cg==
+
+Name: javax/mail/event/MessageChangedEvent.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: IFu6RQ67XGEdg2Cyyf7s0SEMYoI=
+MD5-Digest: Q4k2/8kqf60hhtOEBDnoWw==
+
+Name: javax/mail/event/MessageChangedListener.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: CO4WmyMgpnfmTeMqRB10BP3E/IQ=
+MD5-Digest: xB3oQtwcYkosTIg5yQDFTg==
+
+Name: javax/mail/event/MessageCountAdapter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: eNFsXGL37etEY/8GciUu0E3M0zk=
+MD5-Digest: Zjs1zho/m4izEWnjUCoDjQ==
+
+Name: javax/mail/event/MessageCountEvent.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: cWtmQcn4sui1/SgYuSIY4A6Fqiw=
+MD5-Digest: dR7otpbHxuT+Dr4YuyWlAw==
+
+Name: javax/mail/event/MessageCountListener.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Y/DnFhVvjkIMkoV+0T8TXX0uERs=
+MD5-Digest: KsukvR8N+IgtpRANO9rhkg==
+
+Name: javax/mail/event/StoreEvent.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: a02bNV+cA2y4KRuUzbbjSae1vYQ=
+MD5-Digest: zA8tkiStyrr2Z5gzbu5kfA==
+
+Name: javax/mail/event/StoreListener.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: +BM2MswIMrP3NN235/bFi+oCxDg=
+MD5-Digest: 1kvCLUbz8y7ESbY3/ceYag==
+
+Name: javax/mail/event/TransportAdapter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: fIaD7y2oYcec0ZOgDneTD8d2olU=
+MD5-Digest: UBPMEjthUEQGUSGxw0vjfw==
+
+Name: javax/mail/event/TransportEvent.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: k35zSqawipRAkY9QS/BHz4lXt8w=
+MD5-Digest: wR5apk2Qec1tLKHv20/8/A==
+
+Name: javax/mail/event/TransportListener.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ZsaUmiJzCAKO4AcGnHFxgUVLA1Q=
+MD5-Digest: R50fKs2354kxlL6ciZ98rA==
+
+Name: javax/mail/search/AddressTerm.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: cOkseIKv+ojiSErj+2YwkIyzRDo=
+MD5-Digest: TJO+/VsgvCjx0Jem364+Qg==
+
+Name: javax/mail/search/AddressStringTerm.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: L2Cpwzq82SGZ29YxVoKwxLNFs2k=
+MD5-Digest: V2N+VxqLZNY9pKWZUPBa0w==
+
+Name: javax/mail/search/AndTerm.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 33ijtWdKTM70rdq2XqS1Y6pN4lQ=
+MD5-Digest: lhv/3MjOpyQ/qCEiRoQsng==
+
+Name: javax/mail/search/BodyTerm.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: zlg9DqNvWYIEdFk2cYXNcZPqiII=
+MD5-Digest: B4OAOHS4sJcT1HM582y1qA==
+
+Name: javax/mail/search/ComparisonTerm.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 8mmWD7OKNaDQDr4us1oX8poQkgA=
+MD5-Digest: sVGW3hNRzVBUobGPSfcl7Q==
+
+Name: javax/mail/search/DateTerm.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: V0QEOVFC9oEbztGauTwq2nA45o8=
+MD5-Digest: HK9xV0tNx/yIF0so/RqWzA==
+
+Name: javax/mail/search/FlagTerm.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: C6WwwVrgwkdQK5FLdB/0dKwWLJM=
+MD5-Digest: 2n355urTEeySGkfx3dueVA==
+
+Name: javax/mail/search/FromTerm.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 16OhLKvue+D3hT7AvlVmhep54b0=
+MD5-Digest: pRE1hxAArQ7nWiItVm0taQ==
+
+Name: javax/mail/search/FromStringTerm.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 6Ua5TDRj4aBNk78LshWA6BPH7ww=
+MD5-Digest: EbZIBGYCiWdTXIikz4xwQA==
+
+Name: javax/mail/search/HeaderTerm.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: robjzHDeMcs7BuciO7URIc3zM94=
+MD5-Digest: ITE8cBiHqi14WrZ2q2zKKw==
+
+Name: javax/mail/search/IntegerComparisonTerm.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 1RX96svGbZHuW6Mbbf+/4gHFz1U=
+MD5-Digest: otSZbqEym5fuV+ZcmKwmKA==
+
+Name: javax/mail/search/MessageIDTerm.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: hMtMhcWanlD7IQ9THNtpLuJbK+8=
+MD5-Digest: nv29/j1PWtfjV8xYOR104A==
+
+Name: javax/mail/search/MessageNumberTerm.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Ia+ab/PCk1J0fZjWpgyEtVFFUdU=
+MD5-Digest: FAue+/3q7FPF3zJEfEB+4Q==
+
+Name: javax/mail/search/NotTerm.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 9y3l6kEgs6AbeVNm8Jksodq3kQE=
+MD5-Digest: hhzPkYmSFvFMKTfBdw9ZQA==
+
+Name: javax/mail/search/OrTerm.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: t87AxPXc4Zc3GEnJJ0uzrv9VZxA=
+MD5-Digest: ImxDRUKFWGeLuFkOWxJntQ==
+
+Name: javax/mail/search/RecipientTerm.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: nXHOUbQKBTZ9nXkIyFA6IVtXjXA=
+MD5-Digest: WI4elZTqmRtgoemqgxsseg==
+
+Name: javax/mail/search/RecipientStringTerm.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: lMjpwfKW42xgI4rJ8OY1ua5A7fo=
+MD5-Digest: SlEeIa9U66ys7ksElWUZOA==
+
+Name: javax/mail/search/SearchException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 90VLj1Jfyl8iFpTpFButKWj82Sk=
+MD5-Digest: lBkG5C4x677PQDtfqtD+Ig==
+
+Name: javax/mail/search/SentDateTerm.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: KH4N19Z2cT9fbi/ftPYWmMaeCuI=
+MD5-Digest: zWaXHdl1aAVQZHIF7xFDwQ==
+
+Name: javax/mail/search/ReceivedDateTerm.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Fpjrt68+bgU4YU6qJx4pFp78MMo=
+MD5-Digest: OZCpVjctiCRSA1y5yPZ4fA==
+
+Name: javax/mail/search/SizeTerm.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: X5s28rSud51u9UC5gtOlkQ7k0fY=
+MD5-Digest: HekSVgePPh5heI0+33pB4w==
+
+Name: javax/mail/search/StringTerm.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: WmICHuNfgkaXhwkX2qI7QtHpg/0=
+MD5-Digest: V6+20+IP3+dZh7u0JGSTdQ==
+
+Name: javax/mail/search/SubjectTerm.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: h4GZkif18WJejAhSpu9RQ0DkyXc=
+MD5-Digest: QLY+pbBiru1dLPRxDJFKhg==
+
+Name: javax/mail/search/SearchTerm.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: DGx9+Nka42tqcV9je3Ts/DUG0OY=
+MD5-Digest: ytt9bey7e2pEMT7YjCib+A==
+
+Name: javax/mail/internet/InternetAddress.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: NmbsLYgvsN/EFiMuApWBPkWbbAo=
+MD5-Digest: G4+02oAvTPAwqDkM3jdJrA==
+
+Name: javax/mail/internet/AddressException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 5EKyJc3Yp93+8SQLZ1tMgnB7jsw=
+MD5-Digest: lxf0RyCh8f26CfOH1tLj0w==
+
+Name: javax/mail/internet/HeaderTokenizer.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: T8G73FzrVhT/GuqvHJ3XALitIII=
+MD5-Digest: a6PwWeG7LzBe5dGvqM6WQQ==
+
+Name: javax/mail/internet/HeaderTokenizer$Token.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 7iGyOVkWUWTrKsJfd6LycGKbFAA=
+MD5-Digest: d0wJC8j5taDEg76Wk22j/A==
+
+Name: javax/mail/internet/ParseException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: tJmT9SoByqY8L5dYrbRsPtO23r4=
+MD5-Digest: h9Rd19QF1IWkq/OD37sV9A==
+
+Name: javax/mail/internet/MimeUtility.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: wU7SxfIydqAU5Xnv1MZYe1zloj4=
+MD5-Digest: htwX1IYRgRdM9QnyPQ4h6w==
+
+Name: javax/mail/internet/MimeUtility$1$NullInputStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: u/5R9FwyJsWHgCzHQzWXHL0175M=
+MD5-Digest: DmAlIKKrxp6JxFo/oEZtoA==
+
+Name: javax/mail/internet/AsciiOutputStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: P5rbTj/pKrq9MB6bsLCSCgUVtRo=
+MD5-Digest: s6uFiGRyMjXLqUEqzCp5jA==
+
+Name: javax/mail/internet/ContentType.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Z7rKc3Tbz+Hrx2BvfZUEIB9MLmI=
+MD5-Digest: Mx32UFjHIA8Dn2X6z1KqTA==
+
+Name: javax/mail/internet/ParameterList.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: wSyQOTEWGyzcffpaKukULzHhiJ4=
+MD5-Digest: eW+AKDPZGko+IFy9epQhmw==
+
+Name: javax/mail/internet/ContentDisposition.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: CugKLLevtdR0jVKUviPhH6Uhy7Q=
+MD5-Digest: kpI01hFNFGkX12W1bRBaEA==
+
+Name: javax/mail/internet/InternetHeaders.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: YO8BVIqAEUtxjEa3jK8MAFoks0U=
+MD5-Digest: 96QXY8unuCiVOfXr2IVROQ==
+
+Name: javax/mail/internet/hdr.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: yYA9IhzUQD6DNLdoStvg0OUQxQ4=
+MD5-Digest: VtV+l1mvweS+LcXqBwxnNg==
+
+Name: javax/mail/internet/matchEnum.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: uV5r7+Rp3vravwnpUW5BtXKOezo=
+MD5-Digest: 1bvwgCLxXHRRSQ0lzsfDWA==
+
+Name: javax/mail/internet/MailDateFormat.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Le1dpd2doqbyvFTMEPTJl9QWtow=
+MD5-Digest: uQqxFsVBvD1YsmhIEShRaA==
+
+Name: javax/mail/internet/MailDateParser.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: z3k89D1KAfsLpsDSSu8mDgNeb1U=
+MD5-Digest: zFlBfG5v1J4xqQFfmS01hQ==
+
+Name: javax/mail/internet/MimeBodyPart.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: H7gzHztkbKJbrd5xse4PtT8hFbk=
+MD5-Digest: OmcWLg595JxBwp8L1u3uVw==
+
+Name: javax/mail/internet/MimeMessage.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: d34P1lXrHdvqIiUHjt4XMqi7AEo=
+MD5-Digest: XcNMoX/ypPGxQB7ka6fzMA==
+
+Name: javax/mail/internet/MimeMessage$RecipientType.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: sQq4KJFONi94b+hcnEadnYfC/Jc=
+MD5-Digest: 1vj6NzWhCeAjDGoWzx3ugA==
+
+Name: javax/mail/internet/MimeMultipart.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: JoeFRO3F/ZR5Dx1iTIIDePZ7Uqc=
+MD5-Digest: 9DpwJcJIqBFmoghDiHYI7A==
+
+Name: javax/mail/internet/MimePart.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: V5t0/G+DkCx8EdNkvIdq+1R6IH0=
+MD5-Digest: SVUG1jF2jPWmsTS6zOCJqA==
+
+Name: javax/mail/internet/MimePartDataSource.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: BE54fvBgn4I7R+VI2Ftiq42CgOI=
+MD5-Digest: ftAYksl5VZHtGRP6YKkYHA==
+
+Name: javax/mail/internet/NewsAddress.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: QjPpyQTVpjCO6h4k6G0neVXJr6A=
+MD5-Digest: NMSSgd7pFArjdCfVkcgeBQ==
+
+Name: javax/mail/internet/SharedInputStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: c2F/FBldF/b33VUKlcLjUNAuLjY=
+MD5-Digest: 5F9HRuKrrQAhM+6K3QgBgw==
+
+Name: javax/mail/internet/UniqueValue.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: lwM0vv7cWAmjlEtwkcVPUZkdrg8=
+MD5-Digest: bDHtJzvGkarx3xCqHiX8/A==
+
+Name: javax/mail/MessageRemovedException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: YmxcDypOIyMu0qDwprWc8b8Dz9I=
+MD5-Digest: fjjXaHw8tspgiW3iD4Gq3A==
+
+Name: com/sun/mail/util/LineInputStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: EfsyiduK0aCK8nrGPuSgl2wCsQ8=
+MD5-Digest: 6sR7S8X5TknERZlUUI8F8g==
+
+Name: com/sun/mail/util/BASE64DecoderStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 9fdgYsBxAI2yPFbLIszY65SGMyY=
+MD5-Digest: Q3Xfv6xMeXhrDbASNHGF5Q==
+
+Name: com/sun/mail/util/QPDecoderStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: y8/pTlD5ioP3DJCC/+N6sVnN65o=
+MD5-Digest: RLwZZ9UmZqyb1UPF10+Rsg==
+
+Name: com/sun/mail/util/UUDecoderStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: MYiqXEGQ+rajWyEERgw9shmLfh8=
+MD5-Digest: 8v0zPupFWzjux5CIB41Anw==
+
+Name: com/sun/mail/util/BASE64EncoderStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: /wM0IE05h+UqD8LBdEQxDOafsL4=
+MD5-Digest: OvguyAzZn1u1gOF01LpJ4w==
+
+Name: com/sun/mail/util/QPEncoderStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: iHxIoHS8r9aGgpF4FNiPl2FWNAI=
+MD5-Digest: Olq7qh9ZGmPolu+ojcMBYw==
+
+Name: com/sun/mail/util/UUEncoderStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: cI5g5iYct+7HSukPeEBX2Hbykqw=
+MD5-Digest: NntCH0jzDviInkpFBGdQaw==
+
+Name: com/sun/mail/util/BEncoderStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ClcGlHLx1LvqBNjYnAnEyCdO6Cg=
+MD5-Digest: t3WZH8a8t4+TAEpJ+VZX+w==
+
+Name: com/sun/mail/util/QEncoderStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: K3zBp+B4vEjl8ckxJP0Te7RBL08=
+MD5-Digest: idsxeAn9LouQKwOObnL1mA==
+
+Name: com/sun/mail/util/ASCIIUtility.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 7F7NHGbKFQntLs+5i9EVbYnZHmg=
+MD5-Digest: O2aLgxUXEfQ0iFLYeY2O+g==
+
+Name: com/sun/mail/util/QDecoderStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 7M0pePL4et4xQJbg98YU2UINmbU=
+MD5-Digest: bdlfBt4RskYUjEDDwGCyOA==
+
+Name: com/sun/mail/util/LineOutputStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ARY30ytfLGDbKijgalM+hdZGmbE=
+MD5-Digest: 4cgTuAjR3i2+5T3Q7J8LTg==
+
+Name: com/sun/mail/util/SharedByteArrayInputStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: dgXDRoff0wUEnmpwisluJ0QWC8I=
+MD5-Digest: 2bJrAA5cagQhfi85TP9kBA==
+
+Name: com/sun/mail/util/CRLFOutputStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: heszA/GcrmQ7NbjMq9eozTbmHlQ=
+MD5-Digest: mkZl40wnWtObaghAO+12HA==
+
+Name: com/sun/mail/util/SocketFetcher.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: LTCqrr0iDKHJyTP+KtAmQSEWPHk=
+MD5-Digest: Uybq6mLbEWjXsEek4K+skQ==
+
+Name: com/sun/mail/util/TraceInputStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 0RaKBSwLyjrgmp9BTVsLOjeSVZQ=
+MD5-Digest: P+QrsS9GG+mtVlrEe6jTpg==
+
+Name: com/sun/mail/util/TraceOutputStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 63GYtAdoZmV54+DJ6JlzdmTDz7I=
+MD5-Digest: MvRgk9b+RFPuB6oBj19i+g==
+
+Name: com/sun/mail/smtp/SMTPMessage.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: NZ9TcnNgk94aYQOLuVOnbvWyol0=
+MD5-Digest: xDJChhkrJjJS+FAkTAdwFw==
+
+Name: com/sun/mail/smtp/SMTPOutputStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: cEBw8k21pQotoYkDOaXirkliAj4=
+MD5-Digest: aMY/qpGI7B+iiXxY6Fes8Q==
+
+Name: com/sun/mail/smtp/SMTPTransport.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 9vtHC/yhHOu+slU+bcB5Fo08YB0=
+MD5-Digest: XQqtct+BkuL1McrIZvF3sg==
+
+Name: com/sun/mail/iap/Argument.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: O2fY8KlLnpFQaZ+sMx7mKC52HzI=
+MD5-Digest: CTlZ9Zlp8UZxGDUVdvL2cA==
+
+Name: com/sun/mail/iap/Atom.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: RQYUGAekB3H+OaWOfik9SE+tb6k=
+MD5-Digest: Bqa+5QsDfVFcPfQCT+JLtA==
+
+Name: com/sun/mail/iap/AString.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: QnyIP1ySGMRZMItiJKrVEIrTDgw=
+MD5-Digest: FtQUKgSUG1eBdhjFq5Qoyw==
+
+Name: com/sun/mail/iap/BadCommandException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: tHcNF5CKTCNbamJMx98b7XIUgEc=
+MD5-Digest: vHwRSzxnxvzWrw4URJwvkA==
+
+Name: com/sun/mail/iap/ByteArray.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: FzPb0dEFtgJKm13HgHGOakJXMGc=
+MD5-Digest: CqJpGn/1LVp/8VHo6SvuYg==
+
+Name: com/sun/mail/iap/CommandFailedException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: q2nXsdDC3mCJUeh5/lUWPZ2/dck=
+MD5-Digest: EZymlskYQhYww5NfTC23wQ==
+
+Name: com/sun/mail/iap/ConnectionException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: t65iHsC3hCuAPVZLfbmSD/XogKo=
+MD5-Digest: lmfzz/3KufFrQ/JPHcpQoQ==
+
+Name: com/sun/mail/iap/Literal.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: jMeEDxmF2B1WQSZegHaS20Z3nDU=
+MD5-Digest: vGV/+vcJBuJI2MlqwJAWCg==
+
+Name: com/sun/mail/iap/ParsingException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: GIZh2J1eYf4BEakzntU3m401Bag=
+MD5-Digest: zfHAds7ieZqK6BYpm7nbhg==
+
+Name: com/sun/mail/iap/Protocol.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ptO4fqKTZR4DPE5tdnJI2w4F4sE=
+MD5-Digest: LON42yNTr4blYX467u+YBA==
+
+Name: com/sun/mail/iap/ProtocolException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: oXQgzjYfomgEuqVt9EJtIqEzi5Y=
+MD5-Digest: h3jPU2z+KY4RwAQLJrUHxg==
+
+Name: com/sun/mail/iap/Response.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: uC0Q1Rd74RubbVD+g+1YJqSl47E=
+MD5-Digest: aPm0C7YSK2BENrnYQgrkHw==
+
+Name: com/sun/mail/iap/ResponseHandler.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: PscpGXa4y5TeSxv6FO/YCRiALUA=
+MD5-Digest: GNx1MnWEimCXk8Yq6wG1Lg==
+
+Name: com/sun/mail/iap/ResponseInputStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: JEjdrL3E8ReUjGpOKiK1sI52LTw=
+MD5-Digest: VMPGP8epHd74+txgoGxJAQ==
+
+Name: com/sun/mail/imap/ACL.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: XRHGCJlPH+INdxSViE2zsRcCvuc=
+MD5-Digest: y+FyzzR/YT1Uj/UwIjBLFA==
+
+Name: com/sun/mail/imap/DefaultFolder.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: gs4XQ+/S05yope6mktBmViPSMaQ=
+MD5-Digest: gFl3wfFLWb0Zu531C3ooTQ==
+
+Name: com/sun/mail/imap/IMAPBodyPart.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: YjQxkDCBxT/Ptykp9TP9mlId1C4=
+MD5-Digest: w2kPAgym7hfD5rMLh/A7CA==
+
+Name: com/sun/mail/imap/IMAPFolder.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: S3avrocaF2SjLXNqNQZ/uGY67iw=
+MD5-Digest: C2Dbe63hWtCIZZEprb7ITA==
+
+Name: com/sun/mail/imap/IMAPFolder$ProtocolCommand.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: u9zT+0K0l5FWWWJGld9gwDoF47U=
+MD5-Digest: uKPVxwkVkbHR1KD370uI6w==
+
+Name: com/sun/mail/imap/MessageLiteral.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 9uQCZNpYNlcH8NEm8EMbptdwszA=
+MD5-Digest: v03hJ6hfxvDMeAizjYYi1Q==
+
+Name: com/sun/mail/imap/LengthCounter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: shX/bJKubsb/VqHXHXeCi75SDlg=
+MD5-Digest: 5cVX6wIuvSfu3NY5OJoEug==
+
+Name: com/sun/mail/imap/IMAPInputStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: AQSZPcBLcuVsfghOOXWhYDzJbYE=
+MD5-Digest: ugjZ8BZQROmA9m9wpZuH2w==
+
+Name: com/sun/mail/imap/IMAPMessage.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: XQ0Ze0B4TYOMSIJICxv4zGo+wKA=
+MD5-Digest: CMzMxN9SFRpoRI4/eZ8oJw==
+
+Name: com/sun/mail/imap/IMAPMessage$1$FetchProfileCondition.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: eVE6SyD+2Fk5rTnP7tQvAiUbOGY=
+MD5-Digest: uUFMuZIj65gWVWvS/a1ubQ==
+
+Name: com/sun/mail/imap/IMAPMultipartDataSource.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 2KraBNCXlSoxL//f1b0LTx8Ejrc=
+MD5-Digest: t9ozQmZhX3MT9lLPQrcUWw==
+
+Name: com/sun/mail/imap/IMAPNestedMessage.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: hPyzDMTLrlsoOky4XRzWtGtezSc=
+MD5-Digest: 5MLGA4N2oDe1H8MiC2j0ng==
+
+Name: com/sun/mail/imap/IMAPStore.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Uz8kixqTZMza3dbXzitI04RuUFU=
+MD5-Digest: VVRvjdjiY9uP9i2rH+iU5w==
+
+Name: com/sun/mail/imap/IMAPStore$ConnectionPool.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 28NaG2NmXtkvJeyScOB5o/ZuXqY=
+MD5-Digest: LWn9Ho5BHoDkC3AFq0w+CQ==
+
+Name: com/sun/mail/imap/protocol/BASE64MailboxDecoder.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: fF8pLCg6VJlPpwnrr6IHyuuRVyw=
+MD5-Digest: rc5RIojp/vxQWPiLJUieqA==
+
+Name: com/sun/mail/imap/protocol/BASE64MailboxEncoder.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: R0p6ItPmr+BiRHA13YJocUx3PO0=
+MD5-Digest: VvGkBkK2AbIG8MkIbkgaKA==
+
+Name: com/sun/mail/imap/protocol/BODY.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: CpBcEbYSGSU4SiTpkn5mV+NRiu0=
+MD5-Digest: hSCcmIKV+SmJo/F5A1X2ZA==
+
+Name: com/sun/mail/imap/protocol/BODYSTRUCTURE.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: v7i3H9QIYzL9eWr2EKBekqDKhfM=
+MD5-Digest: pM0hWeJVb6P3GCTTz4JedQ==
+
+Name: com/sun/mail/imap/protocol/ENVELOPE.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: FN1oH0KWaSCHF2Nw7leEHpUUBcY=
+MD5-Digest: LXq4wlCFrC9AV2LUde77yA==
+
+Name: com/sun/mail/imap/protocol/IMAPAddress.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: qR55odfZMiOG7HtOuObcrKTCFeM=
+MD5-Digest: b+9OQjpD1OEhd2APDvqeEQ==
+
+Name: com/sun/mail/imap/protocol/FetchResponse.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: lUpdCxD4S6+y8Ph5NTHOVO9151A=
+MD5-Digest: mrTgDLa+J71MxGMD+20KuA==
+
+Name: com/sun/mail/imap/protocol/FLAGS.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: jCDZoC7i8NC62J6B2xuPxgXff/s=
+MD5-Digest: 0d08Va/eSRvr/IYhDwGA/w==
+
+Name: com/sun/mail/imap/protocol/IMAPProtocol.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 261+EXTfd3n5kIs5K19rcBVeStE=
+MD5-Digest: G4cc95ReQd9Nv5XRVOshcw==
+
+Name: com/sun/mail/imap/protocol/IMAPResponse.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: XKS8acnwX2dTaRx8tNESBjDFNNw=
+MD5-Digest: OqAyiZHhForOWMrx9YBGSQ==
+
+Name: com/sun/mail/imap/protocol/INTERNALDATE.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 5Iw2cVBdNcZj5scgwas45xkTZYE=
+MD5-Digest: s7pug88oLWe/zIanmVVShg==
+
+Name: com/sun/mail/imap/protocol/Item.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: jt+5t84a7Lj6fTDiFf92jLnL904=
+MD5-Digest: f8dwgYEGj6s5B+scssgOhQ==
+
+Name: com/sun/mail/imap/protocol/ListInfo.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: QBH5CAiSTpdXSS/wG2FMBPlPLu4=
+MD5-Digest: gvIwwS6UlpUsCqVBCCiVGQ==
+
+Name: com/sun/mail/imap/protocol/MailboxInfo.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: gE5JZ00FLMcJrsIAOtVagTmj1yA=
+MD5-Digest: 6t9Ea1MPX89awkw+EOv0Og==
+
+Name: com/sun/mail/imap/protocol/MessageSet.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 2wFh6VWYBrzUayZdaHuMDB/jKMY=
+MD5-Digest: 0iks/ZPWvyoXqN56ch0b3w==
+
+Name: com/sun/mail/imap/protocol/Namespaces.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: TBP0GGT3h/Bp2yFrjGJ8rw7M/a0=
+MD5-Digest: K/Tt1UIcZdkdUjVqzIVo+Q==
+
+Name: com/sun/mail/imap/protocol/Namespaces$Namespace.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: z8jobJXslDf0H5Y/HvQ/C0NWF+Y=
+MD5-Digest: XHQ2srnnpLMhxIlqAyW7lQ==
+
+Name: com/sun/mail/imap/protocol/UID.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 9/dQFfDYMQ6gT8Yd/BsaKwq+Sbg=
+MD5-Digest: GdGaAnpzQPXng2AuEhvDgw==
+
+Name: com/sun/mail/imap/protocol/RFC822DATA.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: i8xj8s8XA1H0MUt1z0xVE3fxGRs=
+MD5-Digest: n95ogqo16e496A4qWCWq0g==
+
+Name: com/sun/mail/imap/protocol/RFC822SIZE.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: uCBXwy9cv2oNt5Mz3DyaspJhXCY=
+MD5-Digest: It33Imx7CSccVqMJd3OKsQ==
+
+Name: com/sun/mail/imap/protocol/SearchSequence.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 0fsQjArCAJCV4y14fZLPrRljix0=
+MD5-Digest: QeGZtqkx8EB98Z0BHWIylQ==
+
+Name: com/sun/mail/imap/protocol/Status.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 6YoeCF002x48suB5Qfoc0+iEzNE=
+MD5-Digest: fdQCdordI3ukk6Odm8Kvug==
+
+Name: com/sun/mail/imap/Quota.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: +M9SmQ7PPCJk3rF1ZvTzPWHfdLw=
+MD5-Digest: dIscsNs1l5Kbk2YJyOVlxg==
+
+Name: com/sun/mail/imap/Quota$Resource.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: dI7Av50AUHZFU7v1ZO/nys6vvTI=
+MD5-Digest: x3BNJquXJAvQs9T8M9rRPA==
+
+Name: com/sun/mail/imap/Rights.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 0mLbEmoqDVhyT4ArSH786AWDevg=
+MD5-Digest: Sgt1XqYPhz/pS//os7lyTQ==
+
+Name: com/sun/mail/imap/Rights$Right.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: wxOnXkuOZbAnm+ht6fTHUiunsAA=
+MD5-Digest: DY0oemFVhvhT9+3UCWoCKw==
+
+Name: com/sun/mail/imap/Utility.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: F9KZT38mFSCsY1i9A75DHsyPKUs=
+MD5-Digest: XpdZCc/VwqLSPZ/KBbgTmg==
+
+Name: com/sun/mail/imap/Utility$Condition.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: /RP1IP2+QlNdpHguqi8189/a+To=
+MD5-Digest: QHBeF0B6zdwRxwqQzm5sGQ==
+
+Name: com/sun/mail/pop3/DefaultFolder.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: nfF6f1gDtxEX/KSMzszMpWBGlLo=
+MD5-Digest: MwZv3tbnIfddcPL7LtZXmg==
+
+Name: com/sun/mail/pop3/POP3Folder.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: BMosdjZHqT5XHaKDWIsnkthookc=
+MD5-Digest: P7dZskandqlAw40kB6nTUg==
+
+Name: com/sun/mail/pop3/POP3Message.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: c8Rj2twfMI+Si/yeG4q1ssNjjqk=
+MD5-Digest: 5x7GX5C73sXdgIGkysPBOQ==
+
+Name: com/sun/mail/pop3/POP3Store.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 4/c34BqPyKhVYcr/FlQ5KjeTRbs=
+MD5-Digest: sYh8cHxl+VyIcTtatklXHQ==
+
+Name: com/sun/mail/pop3/Response.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 5+4HiBHg9KSXLyBIQ8Wk/CZogwY=
+MD5-Digest: hGzQaY5/IF+Zvbp57/h4Qw==
+
+Name: com/sun/mail/pop3/Status.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 7MjBj3WkXyUX2ALGgermnmyizSM=
+MD5-Digest: WQYW5gdu4DIf6HQnhr9wiQ==
+
+Name: com/sun/mail/pop3/Protocol.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: YmLaQs+ASYJKGMmQmwIMdtQZFaY=
+MD5-Digest: VxrJn2tOMCfGX4Jfya0ADA==
+
+Name: com/sun/mail/pop3/SharedByteArrayOutputStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: X0Jd5yO0aWgVBxcwnrR3EEybwgA=
+MD5-Digest: lN+/9LWl1sL2f+YARa0QQw==
+
+Name: com/sun/mail/handlers/text_html.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 6wEn4h3CORSNSHsC4RULxcumKD4=
+MD5-Digest: IPHYY6R6q/o/QJpXh3gXkQ==
+
+Name: com/sun/mail/handlers/text_plain.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: h2Wf4vo1DPbRjK2KT8sWWYbed1M=
+MD5-Digest: rYce9NbwAlUpVO9P3ebm5A==
+
+Name: com/sun/mail/handlers/text_xml.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: yUTzk1bedZ9wpSPhSPtH+eLYH+s=
+MD5-Digest: r4MLW4s0xL9KdWg/I5QMFQ==
+
+Name: com/sun/mail/handlers/multipart_mixed.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: WeeChI3s11HdBq8AsbAOeUO4Rpg=
+MD5-Digest: OTgzgQX856t3NCJ/eSXsCA==
+
+Name: com/sun/mail/handlers/message_rfc822.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: cMSR2oZCvZpbAnh8QieCFXfSwGo=
+MD5-Digest: ytNSg3vXQrmo/kDiCGA6eQ==
+
